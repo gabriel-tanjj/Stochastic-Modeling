@@ -104,3 +104,5 @@ df['Model Price'] = df.apply(lambda row: displaced_diffusion_price(
 ), axis=1)
 
 df['Error'] = df['Model Price'] - ((df['best_bid'] + df['best_offer']) / 2)
+
+ddd
