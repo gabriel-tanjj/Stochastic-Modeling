@@ -1,4 +1,5 @@
 **Group Members: Edmund, Gabriel, Andrew, Mikhail, Shi Ling and Yuye** 
+
 _Project course code: Stochastic Modeling for Finance (QF620)_
 
 Project Objective:
@@ -18,3 +19,7 @@ Models Used:
 3. Black model 
 4. Displaced-diffusion model
 
+Git methods:
+1. git merge
+2. git switch
+3. 

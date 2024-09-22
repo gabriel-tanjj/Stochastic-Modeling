@@ -50,8 +50,10 @@ def calibration_error(params, df, S, r):
     return total_error
 
 
-file1 =
-file2 =
+print("hello")
+
+file1 = "hello"
+file2 = "hello"
 
 df1 = pd.read_csv(file1)
 df2 = pd.read_csv(file2)
@@ -102,18 +104,3 @@ df['Model Price'] = df.apply(lambda row: displaced_diffusion_price(
 ), axis=1)
 
 df['Error'] = df['Model Price'] - ((df['best_bid'] + df['best_offer']) / 2)
-
-print("Summary of Results:")
-print(df[['strike_price', 'strike_price_scaled', 'best_bid', 'best_offer', 'Model Price', 'Error']].head())
-
-plt.figure(figsize=(10, 6))
-plt.scatter(df['strike_price_scaled'], (df['best_bid'] + df['best_offer']) / 2,
-            label='Market Price', color='blue', alpha=0.5)
-plt.scatter(df['strike_price_scaled'], df['Model Price'],
-            label='Model Price', color='red', alpha=0.5)
-plt.xlabel('Scaled Strike Price')
-plt.ylabel('Price')
-plt.title('Market Prices vs Model Prices')
-plt.legend()
-plt.grid(True)
-plt.show()
