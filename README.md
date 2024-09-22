@@ -20,6 +20,6 @@ Models Used:
 4. Displaced-diffusion model
 
 Git methods:
-1. git merge
-2. git switch
-3. 
+1. git checkout
+2. git merge
+3. git switch
