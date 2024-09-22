@@ -23,3 +23,4 @@ Git methods:
 1. git checkout
 2. git merge
 3. git switch
+
