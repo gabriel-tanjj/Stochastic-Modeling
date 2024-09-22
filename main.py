@@ -29,10 +29,5 @@ def load_local():
 spx, spy, rates = load_local()
 
 rates = compute_linear_forward(df_rates=rates)
-r = linear_interpolate(rates=rates, time_to_maturity=30)
+r = linear_interpolate(rates=rates, time_to_maturity=3)
 print(r)
-
-
-
-
-

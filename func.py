@@ -27,7 +27,7 @@ def compute_linear_forward(df_rates):
 def linear_interpolate(rates, time_to_maturity):
     linear_interpolator = interpolate.interp1d(rates["year_frac"], rates["rate"], fill_value='extrapolate')
     r = linear_interpolator(time_to_maturity) / 100
-    return r
+    return r*100
 
 def calculate_bsm_price(row, S, r, sigma):
     spot = (row['best_bid'] + row['best_offer']) / 2
