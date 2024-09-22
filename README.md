@@ -23,6 +23,8 @@ Git methods:
 1. git checkout
 2. git merge
 3. git switch
+4. git add
+5. git commit -m "type your message here"
 
-new change test
-ddd
+
+For chatgpt code, please dump it in a dump file first. Need to double check. Thanks
