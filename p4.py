@@ -65,7 +65,7 @@ def delta_hedging(simulation_paths, time_grid, N):
 
 #run simulation
 for N in [21, 84]:
-    print(f"Simulating for N = {N}")
+    print("simulating paths")
     S_paths, time_grid = stock_path_sim(nowprice=S0,\
                                         r=r,\
                                         sigma=sigma,\
